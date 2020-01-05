@@ -14,6 +14,12 @@
 chrome-profiler-events.json
 speed-measure-plugin.json
 
+# e2e
+/e2e/*.js
+/e2e/*.map
+*/aura-output/
+.ssh/
+
 # IDEs and editors
 /.idea
 .project

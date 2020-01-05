@@ -1,0 +1,12 @@
+.square{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: black;
+}
+.head{
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  background-color: #ff00d8!important;
+}

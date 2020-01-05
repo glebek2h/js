@@ -1,0 +1,7 @@
+<div class="snake">
+  <div class = 'wrapper' >
+  <app-snake [initPoint]="initPoint" [snake]="snake" [toToggleChanges]="toToggleChanges"></app-snake>
+  <div class = 'apple' [ngStyle]="position(apple)"></div>
+</div>
+  <button mat-stroked-button color="warn" (click)="restart()" class="but">restart</button>
+</div>
